@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import comingsoon from '../../assets/comingsoon.png';
+import digitalFeedbackForm from '../../assets/projects/digitalfeedbackform.png';
 
 const Projects = () => {
     return (
@@ -11,20 +12,19 @@ const Projects = () => {
                 </h1>
                 
             </div>
-            <div className="p-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">  
+            <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">  
                 {/* card */}
                 <div className="max-w-sm rounded overflow-hidden shadow-2xl bg-gray-800 text-white">
-                <img className="w-full" src={comingsoon} alt="Coming Soon"/>
+                <img className="w-full" src={digitalFeedbackForm} alt="Coming Soon"/>
                 <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">Coming Soon</div>
+                    <div className="font-bold text-xl mb-2">Digital Feedback Form</div>
                     <p className="text-white-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    It is a mobile application developed with ionic framework. It holds and accepts feedback from clients.
                     </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#laravel</span>
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#reactJS</span>
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#tailwind</span>
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ionic</span>
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#SQLite</span>
                 </div>
                 </div>
                 {/* card */}

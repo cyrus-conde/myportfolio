@@ -3,6 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:url"                content="https://mcmactech.me" />
+        <meta property="og:type"               content="blog" />
+        <meta property="og:title"              content="McMac Tech" />
+        <meta property="og:description"        content="My personal website portfolio" />
+        <meta property="og:image"              content="{{url('/assets/img/cover.png')}}" />
 
         <title>McMac Tech Portfolio</title>
         <link rel="icon" href="{{url('/assets/img/MCMACTECH.ico')}}">
@@ -26,7 +31,9 @@
             <section id="experience" class="min-h-screen flex py-10 md:flex-row flex-col items-center bg-black text-white"></section>
             <section id="projects" class="min-h-screen flex py-10 md:flex-row flex-col items-center bg-white text-black"></section>
            
-            <section id="contact" class="min-h-screen flex py-10 md:flex-row flex-col items-center bg-black text-white body-font relative"></section>
+            <section id="contact" class="min-h-screen flex py-10 md:flex-row flex-col items-center bg-black text-white body-font relative">
+                
+            </section>
             
           
 

@@ -23,26 +23,32 @@ const About = () => {
                         <button onClick={()=>setAbout("skills")} className={(about == "skills") ? "bg-blue-700 text-white font-bold py-2 px-4" : "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"}>Technical Skills</button>
                 </span>
             
-            {(about == "knowmemore" ? 
-            <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:grid-rows-1 animate-pulse-once">
-                <div className="place-self-center lg:col-span-5 lg:flex">
-                    <figure>
-                        <img src={me} className="h-full object-cover rounded-2xl drop-shadow-5xl shadow-black hover:hue-rotate-15"/>
-                    </figure>
-                </div>
-                <div className="lg:mt-0 lg:col-span-7 lg:flex lg:col-start-8 place-self-center">
-                    <div>
-                        <p className="text-5xl font-sans font-black tracking-wider text-center underline decoration-pink-500">WHO AM I</p>
-                        <p className="text-justify my-5">
-                            I am Mc Drach Cyrus Conde, 22 years old, studies Information Technology at Mindanao State University - Iligan Institute Technology.
-                        </p>
-                        <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                {(about == "knowmemore" ? 
+                <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:grid-rows-1 animate-pulse-once">
+                    <div className="place-self-center lg:col-span-5 lg:flex">
+                        <figure>
+                            <img src={me} className="h-full object-cover rounded-2xl drop-shadow-5xl shadow-black hover:hue-rotate-15"/>
+                        </figure>
+                    </div>
+                    <div className="lg:mt-0 lg:col-span-7 lg:flex lg:col-start-8 place-self-center">
+                        <div>
+                            <p className="text-5xl font-sans font-black tracking-wider text-center underline decoration-pink-500">WHO AM I</p>
+                            
+                            <p className="text-justify my-5">
+                            I am Mc Drach Cyrus Conde, 22 years old, a fourth-year Information Technology student at Mindanao State University - Iligan Institute Technology.
+
+                            </p>
+                            <p className='text-justify'>
+                            
+                                At a young age, I loved using and playing with computers. Thus, I developed my typing skill which resulted in being the 2nd placer of a typing contest in 2011. My hobby in junior high school was photography and not programming, but it all changes when I was in grade 10 and about to enroll in senior high school. I saw a person on TV with excellent expertise in IT and was fascinated in the art of programming.  At that time, I decided to become an IT, and I said to myself that I wanted to have that knowledge and achieve great heights in terms of programming. So, I enrolled in ICT at NNCHS-SHS and didn't expect to become good at it. I was awarded as a master coder of the year when I graduated in senior high. And I pursued my dream of becoming a Computer Programmer and enrolled in Mindanao State University - Iligan Institute Technology.
+                            </p>
+                            
+                        </div>
                     </div>
                 </div>
-            </div>
-        :
-        <Skills/>
-        )}
+            :
+            <Skills/>
+            )}
         </div>
             
         </Fragment>

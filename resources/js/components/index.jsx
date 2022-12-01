@@ -6,27 +6,38 @@ import logo from '../../assets/logo.png';
 const Home = () => {
     return (
         <Fragment>
-            
-                <div className="flex-1 flex items-center justify-center h-full">
+            <div className="container px-5 py-24 mx-auto">
                 
-                        <img src={logo} className="md:w-5/12 h-full object-cover"/>
-                    
-                </div>
-                <div className="flex-1">
-                    <Typewriter
-                        onInit={(typewriter) => {
-                            typewriter.typeString('<span class="text-xl">Hello there,</span>')
+                <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:grid-rows-1">
+                    <div className="place-self-center lg:col-span-5 lg:flex">
+                        <figure>
+                            <img src={logo} className="h-full object-cover drop-shadow-5xl shadow-black hover:hue-rotate-15"/>
+                        </figure>
+                    </div>
+                    <div className="lg:mt-0 lg:col-span-7 lg:flex lg:col-start-8 place-self-center">
+                        <div>
+                            <Typewriter
+                                onInit={(typewriter) => {
+                                    typewriter.typeString('<span class="text-xl text-justify">Hello there,</span>')
 
-                                .pauseFor(1500)
-                                .changeDelay(50)
-                                .typeString("<br><span class='text-5xl'>I'm Mc Drach Cyrus Conde</span>")
-                                .pauseFor(1500)
-                                .changeDelay('natural')
-                                .typeString("<br><span class='text-2xl'>a full-stack web developer.</span>")
-                                .start();
-                            }}
-                    />
+                                        .pauseFor(1500)
+                                        .changeDelay(50)
+                                        .typeString("<br><span class='text-4xl text-justify'>I'm Mc Drach Cyrus Conde</span>")
+                                        .pauseFor(1500)
+                                        .changeDelay('natural')
+                                        .typeString("<br><span class='text-lg text-justify'>an aspiring full-stack web developer and software engineer.</span>")
+                                        .start();
+                                    }}
+                            />
+                           
+                            
+                        </div>
+                    </div>
                 </div>
+           
+       
+            </div>
+            
             </Fragment>
         
     );
