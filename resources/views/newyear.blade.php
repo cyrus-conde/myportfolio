@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:url"                content="https://mcmactech.me" />
+        <meta property="og:url"                content="https://mcmactech.me/newyear" />
         <meta property="og:type"               content="Portfolio" />
         <meta property="og:title"              content="Happy New Year" />
         <meta property="og:description"        content="Greetings from McMac Tech" />
