@@ -18,8 +18,7 @@
         @vite(['resources/css/app.css','resources/js/app.jsx'])
     </head>
     <body>
-        <header id="nav" class="fixed w-screen z-50">
-        </header>
+        
         <main class="container-fluid">
       
             
