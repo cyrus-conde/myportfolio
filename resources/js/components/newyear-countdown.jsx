@@ -47,7 +47,7 @@ function CountdownTimer() {
         ) : (
             <div className="w-3/4 md:w-1/3 rounded-lg shadow-lg bg-white p-8 md:p-12 lg:p-16 flex flex-col items-center">
                 <h1 className="text-2xl font-bold mb-4 text-center">NEW YEAR COUNTDOWN</h1>
-                <span className="text-4xl font-bold mb-4 text-center">
+                <span className="text-3xl md:text-4xl font-bold mb-4 text-center">
                     {Math.floor(timeLeft / (1000 * 60 * 60 * 24))}d{' '}
                     {Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))}h{' '}
                     {Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60))}m{' '}
