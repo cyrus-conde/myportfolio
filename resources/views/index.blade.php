@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:url"                content="https://mcmactech.me" />
-        <meta property="og:type"               content="blog" />
+        <meta property="og:type"               content="Portfolio" />
         <meta property="og:title"              content="McMac Tech" />
         <meta property="og:description"        content="My personal website portfolio" />
         <meta property="og:image"              content="{{url('/assets/img/cover.png')}}" />

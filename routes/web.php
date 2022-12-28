@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/newyear', function () {
+    return view('newyear');
+});
+
 
